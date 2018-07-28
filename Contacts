@@ -1,0 +1,237 @@
+<<<HTML>>>
+  
+  <main>
+		
+			<section class="front1">
+				<div class="intro1">
+					<h1>
+						<span>Contacts</span>
+					</h1>
+				</div>			
+			</section>
+			
+			
+			<section class="front2">
+				<article class="intro2">
+					<h2>Donec ligula magna</h2>
+					<p>
+					Praesent fermentum justo ac tellus pharetra vestibulum. Nullam a luctus sem. Nulla et rhoncus mauris. 
+					</p>
+					
+					<p>
+					Sed nec felis ligula.
+					</p>
+				</article>
+			</section>
+	
+			<section class="front3">
+				<article class="intro3">
+					<h3>
+						<a href="mailto:info@dreamhack.com">info@dreamhack.com</a>
+						<span class="span" ><i class="fas fa-times"></i></span>
+						<a href="tel:+37065253130">+37065253130</a>
+					</h3>
+				</article>
+				<div class="team">
+					<div class="member">
+						<p class="name">Marie Olsen</p>
+						<p class="role">CEO</p>
+						<p class="email">
+							<a href="mailto:marie@dreamhack.com">marie@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Stuart Gimbert</p>
+						<p class="role">Director</p>
+						<p class="email">
+							<a href="mailto:stuart@dreamhack.com">stuart@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Sarah Drummor</p>
+						<p class="role">Executive Producer</p>
+						<p class="email">
+							<a href="mailto:sarah@dreamhack.com">sarah@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Wendy Atkinson</p>
+						<p class="role">Head of production</p>
+						<p class="email">
+							<a href="mailto:wendy@dreamhack.com">wendy@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Abi Isaac</p>
+						<p class="role">Senior producer</p>
+						<p class="email">
+							<a href="mailto:abi@dreamhack.com">abi@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Ellen Galloway</p>
+						<p class="role">Senior producer</p>
+						<p class="email">
+							<a href="mailto:ellen@dreamhack.com">ellen@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Cara Barrie</p>
+						<p class="role">Producer</p>
+						<p class="email">
+							<a href="mailto:cara@dreamhack.com">cara@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Marij Mcvean</p>
+						<p class="role">Producer</p>
+						<p class="email">
+							<a href="mailto:marij@dreamhack.com">marij@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Jennifer Stolsten</p>
+						<p class="role">Production manager</p>
+						<p class="email">
+							<a href="mailto:jennifer@dreamhack.com">jennifer@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Allan Rooney</p>
+						<p class="role">Production manager</p>
+						<p class="email">
+							<a href="mailto:allan@dreamhack.com">allan@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Paul Macleod</p>
+						<p class="role">Production manager</p>
+						<p class="email">
+							<a href="mailto:paul@dreamhack.com">paul@dreamhack.com</a>
+						</p>
+					</div>
+					<div class="member">
+						<p class="name">Jonathan Gosling</p>
+						<p class="role">Brand digital media manager</p>
+						<p class="email">
+							<a href="mailto:johanthan@dreamhack.com">jonathan@dreamhack.com</a>
+						</p>
+					</div>
+				</div>
+			</section>	
+			
+		</main>
+    
+ <<<CSSL>>>
+ 
+ 
+ 
+.front1, .front2, .front3 {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 100%;
+}
+
+
+.front1 {
+	background-image: url(https://www.whitcroftit.com.au/wp-content/uploads/2016/11/computer-repair-shop-mandurah-1200x600.jpeg);
+	}
+
+
+.intro1 {
+	margin: 0 auto;
+	padding: 100px;
+}
+
+
+.intro1 span {
+	background-color:rgba(0, 0, 0, 0.7);
+	padding: 15px;
+}
+
+
+h1 {
+	
+/*Kodėl nesicentruoja mažam mobiliam?*/
+	font-size: 2.125em;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.front2{	
+	background-color: #fff;
+}
+
+.intro2 {
+	margin: 0 auto;
+	display: inline-block;
+    width: 80%;
+	padding:60px;
+}
+
+
+
+h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #b59b4a;	
+}
+
+
+.front3  {
+	background-color: #f5f5f5;
+}
+
+.intro3 {
+	margin: 0 auto;
+	display: inline-block;
+    width: 80%;
+	padding:60px 60px 0 60px;
+}
+
+.front3 .intro3 a {
+	color: inherit;
+    text-decoration: none;
+}
+
+h3 {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.span {
+	color: #b59b4a;	
+}
+
+
+i {
+	padding:0 10px 0 10px;
+}
+
+
+.team {
+    margin: 30px 0;
+    text-align: center;
+	padding:0 0 60px 0;
+}
+
+.member {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.name {
+	text-transform: uppercase;
+	color: #b59b4a;	
+}
+
+.role {
+	text-transform: uppercase;
+}
