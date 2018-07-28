@@ -41,7 +41,7 @@ Kaip darom dėl Tablet - paliekam kaip mobile versiją?
 <<<CSS>>>
   
   
-  
+ 
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -53,22 +53,28 @@ header{
 	background-color: black;
 	margin: 0 auto;
 	text-align: center;
+	
+}
+
+.header {
+	font-size: 100%;
 }
 
 .header img {
-	width: 30%;
+	width: 40%;
 	margin: 10px;
 }
 
-nav{
+nav {
 	padding: 15px;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0;
-    	padding: 0;
-	font-size: 3vw;
+    padding: 0;
+	font-size: 1.125em;
+	line-height: 130%;
 }
 
 a {
