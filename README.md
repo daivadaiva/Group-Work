@@ -1,8 +1,8 @@
 # Group-Work
 
-Home – Gediminas ima
-About – Daiva ima
-Program
-Tickets - Gediminas ima
-FAQ 
-Contacts – Daiva ima 
+Home – Gediminas ima;
+About – Daiva ima;
+Program - ;
+Tickets - Gediminas ima'
+FAQ - ;
+Contacts – Daiva ima; 
