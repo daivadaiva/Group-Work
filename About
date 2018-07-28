@@ -1,11 +1,11 @@
 <<<HTML>>>
 
-	<main>
+			<main>
 		
 			<section class="front1">
 				<div class="intro1">
 					<h1>
-						<span>ABOUT</span>
+						<span>About</span>
 					</h1>
 				</div>
 			</section>
@@ -27,7 +27,7 @@
 				<section class="intro3">
 					<div class="icon1">
 					</div>
-					<div class="table1">
+					<div>
 						<ul>
 							<li>Nullam nec imperdiet risus</li>
 							<li>Sed ullamcorper</li>
@@ -41,7 +41,7 @@
 				<section class="intro3">
 					<div class="icon2">
 					</div>
-					<div class="table2">
+					<div>
 						<ul>
 							<li>Fusce vehicula ornare</li>
 							<li>Nullam tempus suscipit</li>
@@ -55,7 +55,7 @@
 				<section class="intro3">
 					<div class="icon3">
 					</div>
-					<div class="table3">
+					<div>
 						<ul>
 							<li>Aenean porta</li>
 							<li>Sed ullamcorper</li>
@@ -70,7 +70,7 @@
 				<section class="intro3">
 					<div class="icon4">
 					</div>
-					<div class="table4">
+					<div>
 						<ul>
 							<li>Donec ac dui</li>
 							<li>Duis ac ex luctus</li>
@@ -81,19 +81,67 @@
 					</div>
 				</section>
 			</section>
-	</main>
-
+			
+			<section class="front4">
+				<div class="photo1">	
+				</div>
+				<article class="intro4">
+					<h2 class="heading2">What’s DreamHack?</h2>
+					<p>Proin risus velit, iaculis vitae fringilla at, laoreet eu risus. Maecenas metus ipsum, sodales pulvinar orci non, consequat porttitor nisl. Aenean porta, orci nec semper maximus, purus felis sodales tortor, a imperdiet orci est in neque. 
+					</p>
+				</article>
+			</section>	
+			
+			
+			<section class="front5">
+				<div class="photo1">	
+				</div>
+				<article class="intro5">
+					<h2 class="heading2">Should you log in?</h2>
+					<p>Nullam tempus suscipit turpis, id lobortis risus cursus quis. Integer consequat efficitur ante, eget bibendum metus varius at. Mauris lacinia nisi eget libero tincidunt lacinia. Suspendisse suscipit ultrices diam nec consectetur. Etiam sit amet lorem purus. 
+					</p>
+				</article>
+			</section>	
+			
+			
+			<section class="front6">
+				<article class="intro6">
+					<h2>Partners</h2>
+					<p>Nullam nec imperdiet risus, a placerat massa. Sed ullamcorper non sapien at sagittis. 
+					</p>
+				</article>
+					<ul>
+						<li>
+							<div class="logo1"></div>
+							<div class="logo2"></div>
+							<div class="logo3"></div>
+							<div class="logo4"></div>
+							<div class="logo5"></div>
+							<div class="logo6"></div>
+							<div class="logo7"></div>
+							<div class="logo8"></div>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</section>
+			
+		</main>	
+			
 <<<CSS>>>
 
 
 
-.front1 {
+.front1, .front2, .front3, .front4, .front5, .front6 {
 	margin: 0 auto;
 	width: 100%;
+	height: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
+	font-size: 100%;
 }
+
 
 .front1 {
 	background-image: url(https://www.york.ac.uk/media/study/courses/undergraduate/computerscience/bsc-beng-computer-science-banner.jpg);
@@ -106,6 +154,7 @@
 }
 
 
+
 .intro1 span {
 	background-color:rgba(0, 0, 0, 0.7);
 	padding: 15px;
@@ -115,28 +164,25 @@
 h1 {
 	
 /*Kodėl nesicentruoja mažam mobiliam?*/
-	font-size: 6vw;
-	color: white;	
+	font-size: 2.125em;
+	color: white;
+	text-transform: uppercase;
 }
 
-.front2{
-/*
-Dar darysiu ikonas ir listus, tai reiks height didinti
-*/	
-	width: 100%;
+
+.front2, .front3, .front4, .front5, .front6{	
 	background-color: #fff;
 	color: black;
 }
 
 
-.intro2 {
+.intro2, .intro3, .intro4, .intro5, .intro6  {
 	margin: 0 auto;
-	padding: 30px;
-	text-align: center;
-	font-size: 100%;
-	width: 80%;
-	border: 2px solid blue; 
+	display: inline-block;
+    width: 80%;
+	padding:20px;
 }
+
 
 h2 {
 	font-size: 1.5em;
@@ -145,19 +191,17 @@ h2 {
 p {
 	font-size: 1.125em;
 	line-height: 130%;
-	border: 1px solid pink; 
 }
 
 .front3{
-	
-	width: 100%;
-	background-color: #fff;
-	color: #b59b4a;
-	height: auto;
-    	padding: 20px 10px 60px 10px;
-	text-align: center;
-	font-size: 100%;
-	border: 1px solid red; 
+	color: #b59b4a;	
+}
+
+
+.intro3 {
+    vertical-align: top;
+    width: 210px;
+    min-height: 110px;
 }
 
 
@@ -185,11 +229,231 @@ p {
     margin: 0 auto;
 }
 
-.intro3 {
-	display: inline-block;
-    vertical-align: top;
-    width: 200px;
-    min-height: 100px;
+
+.intro4 h2, .intro5 h2{
+	color: #b59b4a;
+}
+
+.intro4 p{
+	color: white;
 }
 
 
+.front4  {
+	background-color: black;
+}
+
+.front5  {
+	background-color: #f5f5f5;
+}
+
+
+.front6 h2 {
+	text-transform: uppercase;
+}
+
+
+.logo1 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/somesuch.jpg);
+}
+
+.logo2 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/park-pictures.jpg);
+}
+
+.logo3 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/standard.jpg);
+}
+
+.logo4 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/o2.jpg);
+}
+
+.logo5 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/ms.jpg);
+}
+
+.logo6 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/apple.jpg);
+}
+
+.logo7 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/bos.jpg);
+}
+
+.logo8 {
+	background-image: url(https://lsproductions.com/uploads/documents/313/peugeot.jpg);
+} 
+
+
+ 
+.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
+    width: 100px;
+    height: 100px;
+    margin: 0 40px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo1:hover, .logo1:active {
+	width: 150px;
+    height: 150px;
+}
+
+.logo2:hover, .logo2:active {
+	width: 150px;
+    height: 150px;
+}
+ 
+ .logo3:hover, .logo3:active {
+	width: 150px;
+    height: 150px;
+}
+ 
+ .logo4:hover, .logo4:active {
+	width: 150px;
+    height: 150px;
+}
+ 
+ .logo5:hover, .logo5:active {
+	width: 150px;
+    height: 150px;
+}
+ 
+ .logo6:hover, .logo6:active {
+	width: 150px;
+    height: 150px;
+}
+ 
+ .logo7:hover, .logo7:active {
+	width: 150px;
+    height: 150px;
+}
+ 
+ .logo8:hover, .logo8:active {
+	width: 150px;
+    height: 150px;
+}
+
+
+
+
+@media only screen and (min-width: 1201px) {
+	
+	ul, p {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+	
+	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.logo1:hover, .logo1:active {
+	width: 200px;
+    height: 200px;
+}
+
+.logo2:hover, .logo2:active {
+	width: 200px;
+    height: 200px;
+}
+ 
+ .logo3:hover, .logo3:active {
+	width: 200px;
+    height: 200px;
+}
+ 
+ .logo4:hover, .logo4:active {
+	width: 200px;
+    height: 200px;
+}
+ 
+ .logo5:hover, .logo5:active {
+	width: 200px;
+    height: 200px;
+}
+ 
+ .logo6:hover, .logo6:active {
+	width: 200px;
+    height: 200px;
+}
+ 
+ .logo7:hover, .logo7:active {
+	width: 200px;
+    height: 200px;
+}
+ 
+ .logo8:hover, .logo8:active {
+	width: 200px;
+    height: 200px;
+}
+}
+
+
+
+@media only screen and (min-width:601px) and (max-width: 1200px) {
+	
+	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
+    width: 130px;
+    height: 130px;
+}
+
+.logo1:hover, .logo1:active {
+	width: 180px;
+    height: 180px;
+}
+
+.logo2:hover, .logo2:active {
+	width: 180px;
+    height: 180px;
+}
+ 
+ .logo3:hover, .logo3:active {
+	width: 180px;
+    height: 180px;
+}
+ 
+ .logo4:hover, .logo4:active {
+	width: 180px;
+    height: 180px;
+}
+ 
+ .logo5:hover, .logo5:active {
+	width: 180px;
+    height: 180px;
+}
+ 
+ .logo6:hover, .logo6:active {
+	width: 180px;
+    height: 180px;
+}
+ 
+ .logo7:hover, .logo7:active {
+	width: 180px;
+    height: 180px;
+}
+ 
+ .logo8:hover, .logo8:active {
+	width: 180px;
+    height: 180px;
+}
+
+
+}
+ 
