@@ -41,7 +41,6 @@ Kaip darom dėl Tablet - paliekam kaip mobile versiją?
 <<<CSS>>>
   
   
- 
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -80,8 +79,6 @@ ul {
 a {
 	color: white;
 }
-
-
 
 /*Desktop*/
 
