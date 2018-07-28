@@ -1,16 +1,18 @@
 <<<HTML>>>
 
-<section class="front1">
+	<main>
+		
+			<section class="front1">
 				<div class="intro1">
 					<h1>
-						<span>A B O U T</span>
+						<span>ABOUT</span>
 					</h1>
 				</div>
 			</section>
 		
 			<section class="front2">
 				<article class="intro2">
-					<h3>Innovation comes from diversity</h3>
+					<h2>Innovation comes from diversity</h2>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus, dolor in faucibus porta, ex urna imperdiet arcu, vel consequat odio ante non velit. 
 					</p>
@@ -20,9 +22,70 @@
 					</p>
 				</article>
 			</section>
-
+			
+			<section class="front3">
+				<section class="intro3">
+					<div class="icon1">
+					</div>
+					<div class="table1">
+						<ul>
+							<li>Nullam nec imperdiet risus</li>
+							<li>Sed ullamcorper</li>
+							<li>Donec sit amet turpis</li>
+							<li>Curabitur eget eros</li>
+							<li>Praesent ut lacinia mauris</li>
+						</ul>
+					</div>
+				</section>
+			
+				<section class="intro3">
+					<div class="icon2">
+					</div>
+					<div class="table2">
+						<ul>
+							<li>Fusce vehicula ornare</li>
+							<li>Nullam tempus suscipit</li>
+							<li>Ut vitae leo </li>
+							<li>Proin risus velit</li>
+							<li>Maecenas metus ipsum</li>
+						</ul>
+					</div>
+				</section>
+				
+				<section class="intro3">
+					<div class="icon3">
+					</div>
+					<div class="table3">
+						<ul>
+							<li>Aenean porta</li>
+							<li>Sed ullamcorper</li>
+							<li>Mauris lacinia nisi</li>
+							<li>Suspendisse suscipit</li>
+							<li>Etiam sit</li>
+						</ul>
+					</div>
+				</section>
+				
+				
+				<section class="intro3">
+					<div class="icon4">
+					</div>
+					<div class="table4">
+						<ul>
+							<li>Donec ac dui</li>
+							<li>Duis ac ex luctus</li>
+							<li>Nullam vel faucibus</li>
+							<li>Phasellus sagittis</li>
+							<li>Nam nec congue</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+	</main>
 
 <<<CSS>>>
+
+
 
 .front1 {
 	margin: 0 auto;
@@ -34,8 +97,7 @@
 
 .front1 {
 	background-image: url(https://www.york.ac.uk/media/study/courses/undergraduate/computerscience/bsc-beng-computer-science-banner.jpg);
-}
-
+	}
 
 
 .intro1 {
@@ -51,11 +113,16 @@
  
 
 h1 {
-	font-size: 4vw;
-	color: white;
+	
+/*Kodėl nesicentruoja mažam mobiliam?*/
+	font-size: 6vw;
+	color: white;	
 }
 
 .front2{
+/*
+Dar darysiu ikonas ir listus, tai reiks height didinti
+*/	
 	width: 100%;
 	background-color: #fff;
 	color: black;
@@ -63,18 +130,66 @@ h1 {
 
 
 .intro2 {
-	border: 2px solid red;
 	margin: 0 auto;
-	max-width: 800px;
-	min-height: 200px;
 	padding: 30px;
 	text-align: center;
+	font-size: 100%;
+	width: 80%;
+	border: 2px solid blue; 
 }
 
-h3 {
-	font-size: 3vw;
+h2 {
+	font-size: 1.5em;
 }
 
 p {
-	font-size: 2vw;
+	font-size: 1.125em;
+	line-height: 130%;
+	border: 1px solid pink; 
 }
+
+.front3{
+	
+	width: 100%;
+	background-color: #fff;
+	color: #b59b4a;
+	height: auto;
+    padding: 20px 0 60px 0;
+	text-align: center;
+	font-size: 100%;
+	border: 1px solid red; 
+}
+
+
+.icon1 {
+	background-image: url(https://lsproductions.com/uploads/icons/ui-icon-landscape.png);
+}
+
+.icon2 {
+	background-image: url(https://lsproductions.com/uploads/icons/ui-icon-helicopter.png);
+}
+
+.icon3 {
+	background-image: url(https://lsproductions.com/uploads/icons/ui-icon-coffee.png);
+}
+
+.icon4 {
+	background-image: url(https://lsproductions.com/uploads/icons/ui-icon-bed.png);
+}
+
+.icon1, .icon2, .icon3, .icon4{
+	width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.intro3 {
+	display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    min-height: 100px;
+}
+
+
