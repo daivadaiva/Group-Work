@@ -154,7 +154,7 @@ p {
 	background-color: #fff;
 	color: #b59b4a;
 	height: auto;
-    padding: 20px 0 60px 0;
+    	padding: 20px 10px 60px 10px;
 	text-align: center;
 	font-size: 100%;
 	border: 1px solid red; 
