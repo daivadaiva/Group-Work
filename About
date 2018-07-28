@@ -1,4 +1,4 @@
-HTML
+<<<HTML>>>
 
 <section class="front1">
 				<div class="intro1">
@@ -22,7 +22,7 @@ HTML
 			</section>
 
 
-CSS
+<<<CSS>>>
 
 .front1 {
 	margin: 0 auto;
