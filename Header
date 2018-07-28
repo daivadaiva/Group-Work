@@ -80,6 +80,8 @@ a {
 	color: white;
 }
 
+
+
 /*Desktop*/
 
 @media only screen and (min-width: 1201px) {
@@ -118,7 +120,7 @@ a {
 		color: white;
 	}
 
-	ul {
+	ul, p {
 		font-size: 1.5em;
 	}
 
