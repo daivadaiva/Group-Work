@@ -1,0 +1,167 @@
+
+<<<HTML>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DreamHack Contacts</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="normalize.css"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+		<header>
+			<section class="header">
+				<img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/d/d4/DreamHacklogo.png?version=7574c034cf5c40b22fd0c194eeae4b4d" alt="DreamHack Logo"/>
+				<nav>
+					<ul>
+						<li><a href="#" class="item">Home</a></li>
+						<li><a href="#" class="item">About</a></li>
+						<li><a href="#" class="item">Program</a></li>
+						<li><a href="#" class="item">Tickets</a></li>
+						<li><a href="#" class="item">FAQ</a></li>
+						<li><a href="#" class="item">Contacts</a></li>
+					</ul>
+				</nav>
+			</section>	
+		</header>
+    <footer>
+			<div>
+				<i class="icons icons-hover fa fa-facebook"></i>
+				<i class="icons icons-hover fa fa-youtube"></i>
+				<i class="icons icons-hover fa fa-instagram"></i>
+				<i class="icons icons-hover fa fa-twitter"></i>
+			</div>
+			<p>Copyright © DreamHack 2018. All rights reserved.<p>
+		</footer>
+   </body>
+ </html>
+ 
+ 
+<<<CSS>>>
+
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+header{
+	background-color: black;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.header {
+	font-size: 100%;
+}
+
+.header img {
+	width: 40%;
+	margin: 10px;
+}
+
+nav {
+	padding: 15px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	font-size: 1.125em;
+	line-height: 130%;
+}
+
+header a {
+	color: white;
+}
+
+
+
+.item:hover {
+	color: rgb(7, 187, 255);
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-color: white;
+}
+
+
+footer{
+	background-color:black;
+	text-align:center;
+	padding: 20px;
+	color:white;
+}
+
+
+.icons {
+	align-items: center;
+	margin: 20px;
+	font-size: 30px;
+
+}
+
+
+.icons:hover {
+	color: rgb(7, 187, 255);
+}
+
+
+/*Desktop*/
+
+@media only screen and (min-width: 1201px) {
+	.header {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	header{
+		background-color: black;
+	}
+
+
+	.header img {
+		width: 150px;
+		margin: 0;
+		padding: 10px;
+	}
+	 
+	.header li{
+		list-style: none;
+		display: inline;
+		font-size: 30px;
+		margin-left: 5px;
+	}
+
+	.header li:last-child{
+		margin-right: 0;
+	}
+
+	.header a{
+		font-size: 0.5em;
+		color: white;
+	}
+
+	ul, p {
+		font-size: 1.125em;
+	}
+
+	
+	h1 {
+		font-size: 3em;
+	}
+	
+
+}
+
+
