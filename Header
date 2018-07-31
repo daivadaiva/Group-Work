@@ -2,45 +2,38 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>DreamHack</title>
+		<title>DreamHack About</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="normalize.css"/>
 		<link rel="stylesheet" href="style.css"/>
 	</head>
-
-<!-- 
-
-Gal galit uždėti, kad užvedus ant meniu punktų pasikeistų spalva? 
-Ir dar - kad meniu desktope būtų pastovus?
-Kaip darom dėl Tablet - paliekam kaip mobile versiją?
 	
--->
-
 	<body>
 		<header>
 			<section class="header">
 				<img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/d/d4/DreamHacklogo.png?version=7574c034cf5c40b22fd0c194eeae4b4d" alt="DreamHack Logo"/>
 				<nav>
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Program</a></li>
-						<li><a href="#">Tickets</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Contacts</a></li>
+						<li><a href="#" class="item">Home</a></li>
+						<li><a href="#" class="item">About</a></li>
+						<li><a href="#" class="item">Program</a></li>
+						<li><a href="#" class="item">Tickets</a></li>
+						<li><a href="#" class="item">FAQ</a></li>
+						<li><a href="#" class="item">Contacts</a></li>
 					</ul>
 				</nav>
 			</section>	
 		</header>
-	
+		
 	
 	</body>
-  
+  </html>
   
 <<<CSS>>>
   
-  
+
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -79,6 +72,15 @@ ul {
 a {
 	color: white;
 }
+
+
+.item:hover {
+	color: rgb(7, 187, 255);
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-color: white;
+}
+
 
 
 
@@ -124,4 +126,12 @@ a {
 		font-size: 1.125em;
 	}
 
+	
+	h1 {
+		font-size: 3em;
+	}
+	
+
+
 }
+
