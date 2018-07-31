@@ -1,6 +1,34 @@
 <<<HTML>>>
-  
-  <main>
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DreamHack Contacts</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="normalize.css"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+		<header>
+			<section class="header">
+				<img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/d/d4/DreamHacklogo.png?version=7574c034cf5c40b22fd0c194eeae4b4d" alt="DreamHack Logo"/>
+				<nav>
+					<ul>
+						<li><a href="#" class="item">Home</a></li>
+						<li><a href="#" class="item">About</a></li>
+						<li><a href="#" class="item">Program</a></li>
+						<li><a href="#" class="item">Tickets</a></li>
+						<li><a href="#" class="item">FAQ</a></li>
+						<li><a href="#" class="item">Contacts</a></li>
+					</ul>
+				</nav>
+			</section>	
+		</header>
+		
+		<main>
 		
 			<section class="front1">
 				<div class="intro1">
@@ -23,12 +51,11 @@
 					</p>
 				</article>
 			</section>
-	
 			<section class="front3">
 				<article class="intro3">
 					<h3>
 						<a href="mailto:info@dreamhack.com">info@dreamhack.com</a>
-						<span class="span" ><i class="fas fa-times"></i></span>
+						<span>X</span>
 						<a href="tel:+37065253130">+37065253130</a>
 					</h3>
 				</article>
@@ -121,11 +148,73 @@
 			</section>	
 			
 		</main>
-    
+		<footer>
+			<div>
+				<i class="icons icons-hover fa fa-facebook"></i>
+				<i class="icons icons-hover fa fa-youtube"></i>
+				<i class="icons icons-hover fa fa-instagram"></i>
+				<i class="icons icons-hover fa fa-twitter"></i>
+			</div>
+			<p>Copyright © DreamHack 2018. All rights reserved.<p>
+		</footer>
+	</body>
+</html>
  <<<CSSL>>>
  
  
- 
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+header{
+	background-color: black;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.header {
+	font-size: 100%;
+}
+
+.header img {
+	width: 40%;
+	margin: 10px;
+}
+
+nav {
+	padding: 15px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	font-size: 1.125em;
+	line-height: 130%;
+}
+
+header a {
+	color: white;
+}
+
+
+
+.item:hover {
+	color: rgb(7, 187, 255);
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-color: white;
+}
+
+
+/*Main*/
+
+
 .front1, .front2, .front3 {
 	margin: 0 auto;
 	width: 100%;
@@ -204,8 +293,9 @@ h3 {
 	font-size: 1.5em;
 }
 
-.span {
+span {
 	color: #b59b4a;	
+	padding: 0 5px 0 5px;
 }
 
 
@@ -235,3 +325,103 @@ i {
 .role {
 	text-transform: uppercase;
 }
+
+footer{
+	background-color:black;
+	text-align:center;
+	padding: 20px;
+	color:white;
+}
+
+
+.icons {
+	align-items: center;
+	margin: 20px;
+	font-size: 30px;
+
+}
+
+
+.icons:hover {
+	color: rgb(7, 187, 255);
+}
+
+/*Desktop*/
+
+@media only screen and (min-width: 1201px) {
+	.header {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	header{
+		background-color: black;
+	}
+
+
+	.header img {
+		width: 150px;
+		margin: 0;
+		padding: 10px;
+	}
+	 
+	.header li{
+		list-style: none;
+		display: inline;
+		font-size: 30px;
+		margin-left: 5px;
+	}
+
+	.header li:last-child{
+		margin-right: 0;
+	}
+
+	.header a{
+		font-size: 0.5em;
+		color: white;
+	}
+
+	ul, p {
+		font-size: 1.125em;
+	}
+
+	
+	h1 {
+		font-size: 3em;
+	}
+	
+	
+	
+	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active{
+	width: 160px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:601px) and (max-width: 1200px) {
+	
+	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
+    width: 130px;
+    height: 130px;
+}
+
+.logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active {
+	width: 140px;
+
+
+}
+
+
