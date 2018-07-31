@@ -1,6 +1,35 @@
 <<<HTML>>>
 
-			<main>
+			<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DreamHack About</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="normalize.css"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+		<header>
+			<section class="header">
+				<img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/d/d4/DreamHacklogo.png?version=7574c034cf5c40b22fd0c194eeae4b4d" alt="DreamHack Logo"/>
+				<nav>
+					<ul>
+						<li><a href="#" class="item">Home</a></li>
+						<li><a href="#" class="item">About</a></li>
+						<li><a href="#" class="item">Program</a></li>
+						<li><a href="#" class="item">Tickets</a></li>
+						<li><a href="#" class="item">FAQ</a></li>
+						<li><a href="#" class="item">Contacts</a></li>
+					</ul>
+				</nav>
+			</section>	
+		</header>
+		
+		<main>
 		
 			<section class="front1">
 				<div class="intro1">
@@ -83,10 +112,8 @@
 			</section>
 			
 			<section class="front4">
-				<div class="photo1">	
-				</div>
 				<article class="intro4">
-					<h2 class="heading2">What’s DreamHack?</h2>
+					<h2>What’s DreamHack?</h2>
 					<p>Proin risus velit, iaculis vitae fringilla at, laoreet eu risus. Maecenas metus ipsum, sodales pulvinar orci non, consequat porttitor nisl. Aenean porta, orci nec semper maximus, purus felis sodales tortor, a imperdiet orci est in neque. 
 					</p>
 				</article>
@@ -94,10 +121,8 @@
 			
 			
 			<section class="front5">
-				<div class="photo1">	
-				</div>
 				<article class="intro5">
-					<h2 class="heading2">Should you log in?</h2>
+					<h2>Should you log in?</h2>
 					<p>Nullam tempus suscipit turpis, id lobortis risus cursus quis. Integer consequat efficitur ante, eget bibendum metus varius at. Mauris lacinia nisi eget libero tincidunt lacinia. Suspendisse suscipit ultrices diam nec consectetur. Etiam sit amet lorem purus. 
 					</p>
 				</article>
@@ -127,8 +152,70 @@
 			</section>
 			
 		</main>	
+		<footer>
+			<div>
+				<i class="icons icons-hover fa fa-facebook"></i>
+				<i class="icons icons-hover fa fa-youtube"></i>
+				<i class="icons icons-hover fa fa-instagram"></i>
+				<i class="icons icons-hover fa fa-twitter"></i>
+			</div>
+			<p>Copyright © DreamHack 2018. All rights reserved.<p>
+		</footer>
+	</body>
+</html>
 			
 <<<CSS>>>
+
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+header{
+	background-color: black;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.header {
+	font-size: 100%;
+}
+
+.header img {
+	width: 40%;
+	margin: 10px;
+}
+
+nav {
+	padding: 15px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	font-size: 1.125em;
+	line-height: 130%;
+}
+
+a {
+	color: white;
+}
+
+
+.item:hover {
+	color: rgb(7, 187, 255);
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-color: white;
+}
+
+
+/*Main*/
 
 
 
@@ -149,7 +236,6 @@
 
 
 .intro1 {
-	margin: 0 auto;
 	padding: 100px;
 }
 
@@ -177,15 +263,15 @@ h1 {
 
 
 .intro2, .intro3, .intro4, .intro5, .intro6  {
-	margin: 0 auto;
 	display: inline-block;
     width: 80%;
-	padding:20px;
+	padding:60px;
 }
 
 
 h2 {
 	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 p {
@@ -202,6 +288,7 @@ p {
     vertical-align: top;
     width: 210px;
     min-height: 110px;
+	padding-top: 0;
 }
 
 
@@ -299,28 +386,80 @@ p {
 }
 
 
+
 .logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active{
-	width: 150px;
-    height: 150px;
+	width: 110px;
 }
 
 
+footer{
+	background-color:black;
+	text-align:center;
+	padding: 20px;
+	color:white;
+}
+
+
+.icons {
+	align-items: center;
+	margin: 20px;
+	font-size: 30px;
+
+}
+
+
+.icons:hover {
+	color: rgb(7, 187, 255);
+}
 
 /*Desktop*/
 
 @media only screen and (min-width: 1201px) {
+	.header {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 	
-	ul, p {
-		font-size: 1.5em;
+	header{
+		background-color: black;
 	}
 
-	h2 {
-		font-size: 2em;
+
+	.header img {
+		width: 150px;
+		margin: 0;
+		padding: 10px;
 	}
+	 
+	.header li{
+		list-style: none;
+		display: inline;
+		font-size: 30px;
+		margin-left: 5px;
+	}
+
+	.header li:last-child{
+		margin-right: 0;
+	}
+
+	.header a{
+		font-size: 0.5em;
+		color: white;
+	}
+
+	ul, p {
+		font-size: 1.125em;
+	}
+
 	
 	h1 {
 		font-size: 3em;
 	}
+	
+	
 	
 	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
     width: 150px;
@@ -330,8 +469,7 @@ p {
 
 
 .logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active{
-	width: 200px;
-    height: 200px;
+	width: 160px;
 }
 
 
@@ -345,11 +483,11 @@ p {
     width: 130px;
     height: 130px;
 }
+
 .logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active {
-	width: 180px;
-    height: 180px;
-}
+	width: 140px;
 
 
 }
- 
+
+
