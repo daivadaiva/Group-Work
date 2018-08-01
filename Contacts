@@ -295,6 +295,7 @@ span {
 
 .team {
     	text-align: center;
+	padding: 30px 0px 30px 0px;
 }
 
 .member {
