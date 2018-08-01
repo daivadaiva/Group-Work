@@ -192,7 +192,7 @@ nav {
 ul {
 	list-style-type: none;
 	margin: 0;
-    padding: 0;
+   	padding: 0;
 	font-size: 1.125em;
 	line-height: 130%;
 }
@@ -232,7 +232,7 @@ header a {
 
 .intro1 {
 	margin: 0 auto;
-	padding: 100px;
+	padding: 100px 0px 100px 0px;
 }
 
 
@@ -243,8 +243,6 @@ header a {
 
 
 h1 {
-	
-/*Kodėl nesicentruoja mažam mobiliam?*/
 	font-size: 2.125em;
 	color: white;
 	text-transform: uppercase;
@@ -258,8 +256,8 @@ h1 {
 .intro2 {
 	margin: 0 auto;
 	display: inline-block;
-    width: 80%;
-	padding:60px;
+    	width: 80%;
+	padding: 60px 0px 60px 0px;
 }
 
 
@@ -278,13 +276,13 @@ h2 {
 .intro3 {
 	margin: 0 auto;
 	display: inline-block;
-    width: 80%;
+    	width: 80%;
 	padding:60px 60px 0 60px;
 }
 
 .front3 .intro3 a {
 	color: inherit;
-    text-decoration: none;
+    	text-decoration: none;
 }
 
 h3 {
@@ -304,17 +302,15 @@ i {
 
 
 .team {
-    margin: 30px 0;
-    text-align: center;
-	padding:0 0 60px 0;
+    	text-align: center;
 }
 
 .member {
-    display: inline-block;
-    width: 300px;
-    margin: 10px;
-    vertical-align: top;
-}
+	display: inline-block;
+	width: 300px;
+	margin: 10px;
+	vertical-align: top;
+	}
 
 .name {
 	text-transform: uppercase;
@@ -395,15 +391,15 @@ footer{
 	
 	
 	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
-    width: 150px;
-    height: 150px;
-}
+	    width: 150px;
+	    height: 150px;
+	}
 
 
 
-.logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active{
-	width: 160px;
-}
+	.logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active{
+		width: 160px;
+	}
 
 
 }
@@ -413,14 +409,12 @@ footer{
 @media only screen and (min-width:601px) and (max-width: 1200px) {
 	
 	.logo1, .logo2, .logo3, .logo4,.logo5, .logo6, .logo7, .logo8 {
-    width: 130px;
-    height: 130px;
+		width: 130px;
+		height: 130px;
 }
 
-.logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active {
-	width: 140px;
-
-
+	.logo1:hover, .logo1:active, .logo2:hover, .logo2:active, .logo3:hover, .logo3:active,  .logo4:hover, .logo4:active, .logo5:hover, .logo5:active,  .logo6:hover, .logo6:active,  .logo7:hover, .logo7:active,  .logo8:hover, .logo8:active {
+		width: 140px;
 }
 
 
