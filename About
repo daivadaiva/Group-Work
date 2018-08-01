@@ -235,7 +235,7 @@ a {
 
 
 .intro1 {
-	padding: 100px;
+	padding: 100px 0px 100px 0px;
 }
 
 
@@ -247,8 +247,6 @@ a {
  
 
 h1 {
-	
-/*Kodėl nesicentruoja mažam mobiliam?*/
 	font-size: 2.125em;
 	color: white;
 	text-transform: uppercase;
@@ -263,8 +261,8 @@ h1 {
 
 .intro2, .intro3, .intro4, .intro5, .intro6  {
 	display: inline-block;
-    width: 80%;
-	padding:60px;
+    	width: 80%;
+	padding: 60px 0px 60px 0px;
 }
 
 
