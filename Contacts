@@ -327,10 +327,6 @@ footer{
 
 }
 
-i {
-	padding:0px 10px 0px 10px;
-}
-
 .icons:hover {
 	color: rgb(7, 187, 255);
 }
