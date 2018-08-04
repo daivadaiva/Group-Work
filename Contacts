@@ -392,7 +392,9 @@ footer{
 		width: 160px;
 	}
 
-
+	.member {
+	    width: 350px;
+	}
 }
 
 
@@ -408,4 +410,8 @@ footer{
 		width: 140px;
 }
 
+	.member {
+	    width: 300px;
+	}
 
+}
