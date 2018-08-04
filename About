@@ -163,8 +163,11 @@
 		</footer>
 	</body>
 </html>
-			
+
+
+
 <<<CSS>>>
+
 
 
 body {
@@ -214,6 +217,8 @@ a {
 }
 
 
+
+
 /*Main*/
 
 
@@ -261,7 +266,7 @@ h1 {
 
 .intro2, .intro3, .intro4, .intro5, .intro6  {
 	display: inline-block;
-    	width: 80%;
+    width: 80%;
 	padding: 60px 0px 60px 0px;
 }
 
