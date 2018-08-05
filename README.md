@@ -2,7 +2,7 @@
 
 Home – Antanas;
 About – Daiva;
-FAQ - Gediminas;
+FAQ - Antanas;
 Contacts – Daiva; 
 
 Meniu ir Footer - Daiva
